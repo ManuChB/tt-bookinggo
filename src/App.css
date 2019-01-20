@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-search-box {
+    width: 600px;
+    height: 650px;
+    background-color: yellowgreen
+  }
+
+@media only screen and (max-width: 600px) {
+  .App-search-box {
+    width: 100%;
+  }
+}

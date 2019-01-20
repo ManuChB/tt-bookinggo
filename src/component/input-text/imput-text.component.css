@@ -1,0 +1,38 @@
+.InputText-main {
+  flex-flow: column nowrap;
+  place-content: stretch flex-start;
+  align-items: stretch;
+}
+
+.InputText-title {
+  text-align: left;
+  flex: 1;
+  color: black;
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 5;
+
+}
+
+.InputText-container {
+  width: 550px;
+  padding: 10px 10px;
+  margin: 0px;
+}
+
+.InputText-input {
+  flex: 1;
+  height: 30px;
+  width: 528px;
+  padding: 1px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .InputText-input {
+    width: 95%;
+  }
+  .InputText-container {
+        width: 90%;
+
+  }
+}
